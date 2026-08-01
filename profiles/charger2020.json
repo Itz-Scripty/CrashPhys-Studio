@@ -1,0 +1,14 @@
+{
+    "name": "Charger2020",
+    "body": {
+        "model": "models/dannio/charger2020.mdl"
+    },
+    "wheels": {
+        "front_left": "",
+        "front_right": "",
+        "rear_left": "",
+        "rear_right": ""
+    },
+    "parts": [],
+    "engine_health": 100
+}
