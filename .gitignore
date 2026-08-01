@@ -1,7 +1,13 @@
-workspace/
-
+# Python
 __pycache__/
-
 *.pyc
 
+# CrashPhys generated files
+workspace/
+
+# VS Code
 .vscode/
+
+# Build/cache
+build/
+dist/
