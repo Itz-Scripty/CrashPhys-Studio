@@ -1,6 +1,5 @@
 # 🚗💥 CrashPhys Studio
 
-![Version](https://img.shields.io/badge/version-0.1%20Alpha-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 🛠️ Open-Source Vehicle Physics & Development Toolkit for Garry's Mod
