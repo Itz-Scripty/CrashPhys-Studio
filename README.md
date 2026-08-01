@@ -1,93 +1,91 @@
 # 🚗💥 CrashPhys Studio
 
-![Status](https://img.shields.io/badge/status-Development-orange)
+## Open-Source Vehicle Development Toolkit for Garry's Mod
+
+![Status](https://img.shields.io/badge/status-in%20development-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🛠️ Open-Source Vehicle Physics & Development Toolkit for Garry's Mod
+---
 
-CrashPhys Studio is an open-source project focused on creating advanced vehicle simulation tools and systems for **Garry's Mod**.
+# 🛠️ What Is CrashPhys Studio?
 
-The goal of CrashPhys is to move beyond basic vehicle spawning and create a framework focused on:
+CrashPhys Studio is an open-source development tool designed to help Garry's Mod creators build, manage, and prepare vehicles for advanced simulation systems.
 
-* 💥 Realistic crash simulation
-* 🔧 Vehicle damage systems
-* 🚗 Custom vehicle creation
-* 📦 Workshop addon support
-* 🧩 Developer-friendly expansion
-* 🌎 Community-driven development
+The purpose of CrashPhys Studio is to provide developers with a dedicated workspace for working with vehicle addons, models, and vehicle data.
 
-⚠️ **CrashPhys Studio is currently in Alpha development.**
-
-Features are actively being created, tested, and improved.
+Instead of manually digging through Workshop files, searching through folders, and editing vehicle data by hand, CrashPhys Studio aims to provide a simple development environment for creators.
 
 ---
 
-# 📖 About CrashPhys
+# 🌎 The Vision
 
-CrashPhys started with a simple idea:
+CrashPhys Studio was created around a simple idea:
 
-> "What if Garry's Mod vehicles could have deeper damage, failure, and crash systems?"
+> "Vehicle development should be easier, faster, and more accessible."
 
-🚗💥 From that idea, CrashPhys became a project focused on creating tools for developers who want more control over vehicles.
+Many Garry's Mod vehicle addons contain complex structures:
 
-The long-term vision:
+* Models
+* Materials
+* Components
+* Configurations
+* Multiple vehicle parts
 
-* Import vehicle addons
-* Analyze vehicle models
-* Create vehicle profiles
-* Build custom damage systems
-* Expand crash simulation
-* Give creators more control
-
----
-
-# ✨ Current Features
-
-## 📦 Workshop Integration
-
-CrashPhys Studio currently supports:
-
-✅ Garry's Mod Workshop addon importing
-✅ `.gma` extraction
-✅ Addon folder scanning
-✅ Model detection
+CrashPhys Studio aims to organize these assets and give creators the tools they need to turn addon content into structured vehicle projects.
 
 ---
 
-## 🧱 Model System
+# ✨ Current Capabilities
 
-CrashPhys can:
+## 📦 Workshop Addon Management
 
-✅ Find `.mdl` files
-✅ Browse extracted addon models
-✅ Organize discovered models
-✅ Support different addon structures
+CrashPhys Studio can:
 
-Example:
+✅ Scan Garry's Mod Workshop content
+✅ Detect Workshop addons
+✅ Extract `.gma` files
+✅ Create editable workspaces
+✅ Analyze addon contents
+
+---
+
+## 🧱 Model Discovery
+
+CrashPhys Studio can search extracted addons for Garry's Mod models.
+
+Features include:
+
+✅ `.mdl` detection
+✅ Model browsing
+✅ Category organization
+✅ Selecting vehicle assets
+
+Supported examples:
 
 ```text
 models/example/car.mdl
+models/example/wheel.mdl
+models/example/chassis.mdl
 ```
 
 ---
 
-# 🚘 Vehicle Builder
+# 🚘 Vehicle Profile Creation
 
-Create vehicle profiles using extracted models.
+CrashPhys Studio allows creators to begin building vehicle definitions.
 
-Current support:
+Current systems include:
 
 ✅ Vehicle naming
 ✅ Vehicle model assignment
+✅ Vehicle data creation
 ✅ JSON profile exporting
-✅ Engine data storage
 
-Example profile:
+Example:
 
 ```json
 {
     "name": "Example Vehicle",
-    "type": "single",
     "body": {
         "model": "models/example/car.mdl"
     },
@@ -97,120 +95,91 @@ Example profile:
 
 ---
 
-# 🚙 Supported Vehicle Types
+# 🏗️ What CrashPhys Studio Will Become
 
-## 🟢 Single Model Vehicles
+CrashPhys Studio is being built into a complete vehicle development environment.
 
-Many addons contain the entire vehicle as one model.
+Future goals include:
 
-Example:
+## 🚗 Advanced Vehicle Builder
 
-```text
-models/example/car.mdl
-```
+Create complete vehicle projects with:
 
-CrashPhys can use the complete model directly.
-
----
-
-## 🔵 Modular Vehicles
-
-Some vehicles use separate parts:
-
-```text
-chassis.mdl
-wheel_front_left.mdl
-wheel_front_right.mdl
-wheel_rear_left.mdl
-wheel_rear_right.mdl
-```
-
-🚧 Modular vehicle support is actively being expanded.
+* Vehicle components
+* Wheels
+* Chassis
+* Engines
+* Parts
+* Custom configurations
 
 ---
 
-# 🚧 Development Status
+## 💥 Crash Simulation Tools
 
-## 🏷️ Current Version
+Future development will add tools for:
 
-```
-CrashPhys Studio v0.1 Alpha
-```
-
-Current development focus:
-
-🔧 Better vehicle detection
-🔧 Improved addon compatibility
-🔧 Advanced vehicle systems
-🔧 Damage simulation
-🔧 Crash physics expansion
+* Damage configuration
+* Crash testing
+* Failure simulation
+* Vehicle condition tracking
 
 ---
 
-# 🗺️ Roadmap
+## 🔧 Developer Workflow Tools
 
-## ✅ Completed
+Planned features:
 
-* [x] Workshop importing
-* [x] GMA extraction
-* [x] Model scanning
-* [x] Vehicle profile exporting
-
----
-
-## 🔨 In Development
-
-* [ ] Single-model vehicle improvements
-* [ ] Modular vehicle building
-* [ ] Suspension damage
-* [ ] Tire failures
-* [ ] Engine failures
-* [ ] Crash analysis tools
-* [ ] More addon compatibility
+* Better asset management
+* Vehicle templates
+* Debugging tools
+* Configuration editors
+* Project management
 
 ---
 
-# 🌎 Community Project
+# 🌱 Built For The Community
 
-CrashPhys is built for developers, creators, and modders.
+CrashPhys Studio is an open-source project created for developers, modders, and creators.
 
-The goal is to create a project where people can:
+The goal is to make vehicle development more accessible while allowing the community to improve and expand the software.
 
-💡 Share ideas
-🛠️ Improve systems
-🐛 Find bugs
-🚀 Build new features
-🤝 Help the community grow
+Contributions are welcome.
 
-Contributions are welcome!
+You can help by:
+
+💡 Suggesting features
+🐛 Reporting bugs
+🔧 Improving code
+📚 Improving documentation
+🧪 Testing new builds
+
+---
+
+# 🚧 Development Philosophy
+
+CrashPhys Studio is being developed openly.
+
+The project will continue growing through:
+
+* Community feedback
+* Testing
+* New features
+* Developer contributions
+
+The current focus is creating a strong foundation before expanding into more advanced systems.
 
 ---
 
 # 📥 Installation
 
-## Requirements
+Requirements:
 
-✔️ Python 3.x
-✔️ Garry's Mod
-✔️ Access to GMod `gmad.exe`
+* Python 3.x
+* Garry's Mod
+* Garry's Mod development tools
+* `gmad.exe`
 
----
-
-## Running CrashPhys Studio
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/CrashPhys-Studio.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Launch:
+Run:
 
 ```bash
 python main.py
@@ -218,59 +187,27 @@ python main.py
 
 ---
 
-# 🐛 Bug Reports
-
-Found a problem?
-
-Please include:
-
-* 🖥️ CrashPhys version
-* 📦 Addon name
-* ❌ Error message
-* 📝 Steps to reproduce
-* 📸 Screenshots if possible
-
-Good reports help us improve faster.
-
----
-
-# 🤝 Contributing
-
-Want to help?
-
-You can contribute by:
-
-✨ Creating features
-🐛 Fixing bugs
-📚 Improving documentation
-🧪 Testing builds
-💡 Suggesting ideas
-
-Pull requests are welcome.
-
----
-
 # 📜 License
 
-CrashPhys Studio is released under the **MIT License**.
+CrashPhys Studio is released under the MIT License.
 
-You are free to:
+This means you are free to:
 
 ✅ Use the project
 ✅ Modify the project
 ✅ Fork the project
 ✅ Share improvements
 
-See `LICENSE` for full details.
+See the LICENSE file for full details.
 
 ---
 
 # ❤️ Thank You
 
-CrashPhys Studio is an ongoing experiment built one system at a time.
+CrashPhys Studio is built with the goal of making Garry's Mod vehicle development easier and more powerful.
 
-Thank you to everyone who tests, contributes, gives feedback, and helps push the project forward.
+Every test, suggestion, and contribution helps improve the project.
 
-🚗💥 The goal is simple:
+🚗💥
 
-**Build better vehicle simulation tools for Garry's Mod.**
+**Build. Create. Test. Improve.**
