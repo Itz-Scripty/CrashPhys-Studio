@@ -1,9 +1,0 @@
-{
-    "name": "Tahoe UnderCover Cruser",
-    "model": "tahoe_uc.mdl",
-    "engine_health": 100,
-    "front_left_tire": "Healthy",
-    "front_right_tire": "Healthy",
-    "rear_left_tire": "Healthy",
-    "rear_right_tire": "Healthy"
-}

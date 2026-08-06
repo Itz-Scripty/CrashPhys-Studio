@@ -1,22 +1,8 @@
-import tkinter as tk
-
-from ui import CrashPhysUI
-
+from engine.viewport.CrashViewport import CrashViewport
 
 
 class CrashPhysStudio:
 
-
-    def __init__(self):
-
-        self.window = tk.Tk()
-
-        self.ui = CrashPhysUI(
-            self.window
-        )
-
-
-
     def run(self):
 
-        self.window.mainloop()
+        CrashViewport.run()

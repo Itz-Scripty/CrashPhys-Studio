@@ -1,0 +1,15 @@
+{
+    "name": "Crash Test Project",
+    "version": "0.2.0",
+    "assets": [
+        "vehicles/buggy"
+    ],
+    "scenes": [
+        "crash_test_scene"
+    ],
+    "active_scene": null,
+    "settings": {
+        "engine": "CrashPhys Studio",
+        "beta": true
+    }
+}

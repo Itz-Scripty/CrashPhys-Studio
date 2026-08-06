@@ -1,11 +1,26 @@
-from app import CrashPhysStudio
+# ============================================================
+# CrashPhys Studio
+# File: main.py
+# Version: 0.1.0
+#
+# Application launcher
+# ============================================================
+
+
+import moderngl_window as mglw
+
+from engine.viewport import CrashViewport
+
+
 
 
 def main():
 
-    app = CrashPhysStudio()
 
-    app.run()
+    mglw.run_window_config(
+        CrashViewport
+    )
+
 
 
 

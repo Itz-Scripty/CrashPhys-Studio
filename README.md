@@ -1,183 +1,286 @@
-# 🚗💥 CrashPhys Studio
+# 🚗 CrashPhys Studio
 
-## Open-Source Vehicle Development Toolkit for Garry's Mod
+## Vehicle Physics Development Environment
 
-![Status](https://img.shields.io/badge/status-in%20development-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
-
----
-
-# 🛠️ What Is CrashPhys Studio?
-
-CrashPhys Studio is an open-source development tool designed to help Garry's Mod creators build, manage, and prepare vehicles for advanced simulation systems.
-
-The purpose of CrashPhys Studio is to provide developers with a dedicated workspace for working with vehicle addons, models, and vehicle data.
-
-Instead of manually digging through Workshop files, searching through folders, and editing vehicle data by hand, CrashPhys Studio aims to provide a simple development environment for creators.
+![CrashPhys Studio](docs/screenshots/1.PNG)
 
 ---
 
-# 🌎 The Vision
+# 🚀 About CrashPhys Studio
 
-CrashPhys Studio was created around a simple idea:
+CrashPhys Studio is an experimental vehicle physics and simulation editor built around the idea of creating a dedicated workspace for designing, testing, and visualizing realistic vehicle systems.
 
-> "Vehicle development should be easier, faster, and more accessible."
+The goal is to create a tool where developers can:
 
-Many Garry's Mod vehicle addons contain complex structures:
+- 🚗 Build and inspect vehicles
+- 🛞 Experiment with suspension systems
+- 💥 Test crash behavior
+- 🔧 Edit vehicle components
+- 🎮 Preview physics systems in real time
+- 🧩 Create tools for future vehicle simulation workflows
 
-* Models
-* Materials
-* Components
-* Configurations
-* Multiple vehicle parts
+CrashPhys Studio is currently in **early beta development**.
 
-CrashPhys Studio aims to organize these assets and give creators the tools they need to turn addon content into structured vehicle projects.
+This first release is not about having every feature finished.
 
----
-
-# ✨ Current Capabilities
-
-## 📦 Workshop Addon Management
-
-CrashPhys Studio can:
-
-✅ Scan Garry's Mod Workshop content
-✅ Detect Workshop addons
-✅ Extract `.gma` files
-✅ Create editable workspaces
-✅ Analyze addon contents
+It is about proving the foundation works.
 
 ---
 
-## 🧱 Model Discovery
+# 🏁 Beta 0.1 Release
 
-CrashPhys Studio can search extracted addons for Garry's Mod models.
+## The First Milestone
 
-Features include:
+Beta 0.1 represents the first working version of the CrashPhys Studio vision.
 
-✅ `.mdl` detection
-✅ Model browsing
-✅ Category organization
-✅ Selecting vehicle assets
+The editor can now:
 
-Supported examples:
+✅ Launch a dedicated 3D workspace  
+✅ Render a real-time viewport  
+✅ Spawn test vehicles  
+✅ Delete selected vehicles  
+✅ Display vehicle information  
+✅ Browse project assets  
+✅ Select assets through the browser  
+✅ Display editor panels  
+✅ Run a custom UI framework  
+✅ Connect editor systems together  
 
-```text
-models/example/car.mdl
-models/example/wheel.mdl
-models/example/chassis.mdl
+This release proves the core architecture is possible.
+
+---
+
+# 📸 Screenshots
+
+## 🖥️ Editor Workspace
+
+![CrashPhys Studio Editor](/screenshots/1.PNG)
+
+---
+
+## 🚗 Vehicle Testing
+
+![CrashPhys Studio Vehicle System](/screenshots/2.PNG)
+
+---
+
+# 🛠️ Current Systems
+
+## 🌎 3D Viewport
+
+The viewport is the foundation of CrashPhys Studio.
+
+Current features:
+
+- OpenGL rendering
+- Camera system
+- Grid environment
+- Vehicle rendering
+- Real-time editor scene
+
+---
+
+## 🚗 Vehicle System
+
+CrashPhys Studio includes the beginning of a vehicle development pipeline.
+
+Current vehicle features:
+
+- Vehicle spawning
+- Vehicle objects
+- Vehicle inspection
+- Basic vehicle data display
+
+Future versions will expand this into:
+
+- Suspension editing
+- Damage zones
+- Tire systems
+- Engine simulation
+- Crash testing
+
+---
+
+## 📁 Asset Browser
+
+The project browser allows the editor to track supported assets.
+
+Currently supports:
+
+- Models
+- Textures
+- Data files
+
+Supported formats:
+
+```
+.mdl
+.obj
+.fbx
+.png
+.jpg
+.jpeg
+.json
 ```
 
+Future versions will expand the asset pipeline.
+
 ---
 
-# 🚘 Vehicle Profile Creation
+## 🔎 Inspector System
 
-CrashPhys Studio allows creators to begin building vehicle definitions.
+The inspector provides information about selected objects.
 
-Current systems include:
+Currently displays:
 
-✅ Vehicle naming
-✅ Vehicle model assignment
-✅ Vehicle data creation
-✅ JSON profile exporting
+- Object name
+- Object type
+- ID
+- Transform data
+- Engine information
+- Wheel information
+- Suspension information
 
-Example:
+---
 
-```json
-{
-    "name": "Example Vehicle",
-    "body": {
-        "model": "models/example/car.mdl"
-    },
-    "engine_health": 100
-}
+# 🧱 Development Philosophy
+
+CrashPhys Studio is being built around a few main ideas:
+
+## 🔧 Tools First
+
+A good simulation needs good tools.
+
+The editor comes before advanced simulation features.
+
+---
+
+## 🧩 Modular Architecture
+
+Systems are designed separately:
+
+- Renderer
+- Vehicles
+- Physics
+- UI
+- Assets
+- Editor tools
+
+This allows CrashPhys Studio to grow without becoming one giant system.
+
+---
+
+## 🚀 Build The Foundation
+
+The first goal is not perfection.
+
+The first goal is creating a working platform where advanced systems can be built.
+
+---
+
+# 🗺️ Roadmap
+
+For the full development roadmap:
+
+➡️ See [ROADMAP.md](ROADMAP.md)
+
+---
+
+# 🔮 Future Goals
+
+Planned systems include:
+
+## 🚘 Vehicle Development
+
+- Vehicle importer
+- Vehicle editor
+- Suspension tuning
+- Tire configuration
+- Engine tuning
+- Vehicle components
+
+---
+
+## 💥 Crash Physics
+
+Future crash systems:
+
+- Damage zones
+- Collision analysis
+- Vehicle deformation simulation
+- Crash playback
+- Damage visualization
+
+---
+
+## 🎮 Simulation Tools
+
+Future tools:
+
+- Physics testing environments
+- Scenario editor
+- Vehicle comparisons
+- Replay systems
+- Automated testing
+
+---
+
+## 🛠️ Advanced Editor Features
+
+Planned:
+
+- Better camera controls
+- Save/load projects
+- Asset previews
+- Material tools
+- Animation tools
+- Plugin support
+
+---
+
+# ⚠️ Current Limitations
+
+Beta 0.1 is an early development release.
+
+Known limitations:
+
+- Camera controls are still being improved
+- Save/load is not implemented yet
+- Vehicle editing is limited
+- Asset tools are still basic
+- Physics simulation systems are still under development
+
+---
+
+# 💻 Installation
+
+## Requirements
+
+- Python 3.10+
+- Modern GPU
+- OpenGL 3.3+
+
+---
+
+## Running
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Itz-Scripty/CrashPhys-Studio.git
 ```
 
----
+Enter the project:
 
-# 🏗️ What CrashPhys Studio Will Become
+```bash
+cd CrashPhys-Studio
+```
 
-CrashPhys Studio is being built into a complete vehicle development environment.
+Install requirements:
 
-Future goals include:
-
-## 🚗 Advanced Vehicle Builder
-
-Create complete vehicle projects with:
-
-* Vehicle components
-* Wheels
-* Chassis
-* Engines
-* Parts
-* Custom configurations
-
----
-
-## 💥 Crash Simulation Tools
-
-Future development will add tools for:
-
-* Damage configuration
-* Crash testing
-* Failure simulation
-* Vehicle condition tracking
-
----
-
-## 🔧 Developer Workflow Tools
-
-Planned features:
-
-* Better asset management
-* Vehicle templates
-* Debugging tools
-* Configuration editors
-* Project management
-
----
-
-# 🌱 Built For The Community
-
-CrashPhys Studio is an open-source project created for developers, modders, and creators.
-
-The goal is to make vehicle development more accessible while allowing the community to improve and expand the software.
-
-Contributions are welcome.
-
-You can help by:
-
-💡 Suggesting features
-🐛 Reporting bugs
-🔧 Improving code
-📚 Improving documentation
-🧪 Testing new builds
-
----
-
-# 🚧 Development Philosophy
-
-CrashPhys Studio is being developed openly.
-
-The project will continue growing through:
-
-* Community feedback
-* Testing
-* New features
-* Developer contributions
-
-The current focus is creating a strong foundation before expanding into more advanced systems.
-
----
-
-# 📥 Installation
-
-Requirements:
-
-* Python 3.x
-* Garry's Mod
-* Garry's Mod development tools
-* `gmad.exe`
+```bash
+pip install -r requirements.txt
+```
 
 Run:
 
@@ -187,27 +290,26 @@ python main.py
 
 ---
 
-# 📜 License
+# 🤝 Contributing
 
-CrashPhys Studio is released under the MIT License.
+CrashPhys Studio is currently an experimental solo development project.
 
-This means you are free to:
-
-✅ Use the project
-✅ Modify the project
-✅ Fork the project
-✅ Share improvements
-
-See the LICENSE file for full details.
+As development continues, contributions and feedback may become possible.
 
 ---
 
-# ❤️ Thank You
+# 📜 License
 
-CrashPhys Studio is built with the goal of making Garry's Mod vehicle development easier and more powerful.
+License information will be added as the project develops.
 
-Every test, suggestion, and contribution helps improve the project.
+---
 
-🚗💥
+# 🚗 Final Note
 
-**Build. Create. Test. Improve.**
+CrashPhys Studio is the beginning of a bigger vision:
+
+A complete vehicle physics development environment where creators can build, test, and explore realistic vehicle systems.
+
+Beta 0.1 is the first step.
+
+🚗💥 More coming soon.

@@ -1,0 +1,26 @@
+# ============================================================
+# CrashPhys Studio
+# Beta 0.1 Requirements
+#
+# Core runtime dependencies
+# ============================================================
+
+
+# OpenGL rendering
+moderngl
+
+
+# Window/context management
+moderngl-window
+
+
+# Math and matrix operations
+numpy
+
+
+# UI text rendering
+pyglet
+
+
+# Asset/image handling
+Pillow
