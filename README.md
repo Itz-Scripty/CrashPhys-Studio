@@ -2,7 +2,7 @@
 
 ## Vehicle Physics Development Environment
 
-![CrashPhys Studio](docs/screenshots/1.PNG)
+![CrashPhys Studio](/screenshots/1.PNG)
 
 ---
 
